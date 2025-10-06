@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-img{
+    width: 3rem;
+}
+.first-p{
+    text-align: center;
+    line-height: 0.1rem;
+    font-size: 1.2rem;
+}
+/* first div starts here. */
+.first-div{
+    background-color: black;
+    width: 19rem;
+    margin-left: 75rem;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.first-div p{
+    line-height: 0.4rem;
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: rgb(230, 192, 96);
+}
+/* first div ends here. */
+/* second div starts here. */
+.second-div{
+    background-color: rgb(2, 55, 101);
+    height: 3.5rem;
+    width: 99%;
+    border-radius: 3px;
+}
+.top-li img{
+    width: 2rem;
+    border-radius: 25px;  
+    margin-right: 0.5rem; 
+}
+.top-li h2{
+    color: white;
+    padding: 0 6rem 1rem 0;
+}
+li{
+    list-style: none;
+    margin: right;
+}
+li a{
+    float: left;
+    margin: 0.5rem;
+    color: gray;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+li a:hover{
+    text-decoration: none;
+    color: white;
+}
+/* second div ends here. */
+/* third div starts here. */
+.third-img{
+    margin-left: 10rem;
+    width: 33%;
+    margin-bottom: 0.3rem;
+}
+.col-md-12{
+    padding: 0.1rem 0 1rem 1rem;
+}
+.third-div{
+    background-color: rgb(1, 38, 72);
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+}
+.third-div p{
+    color: white;
+    padding-bottom: 0.1rem;
+}
+.third-div h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 0.4rem;
+}
+/* third div ends here. */
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2rem;
+}
+.fourth-div{
+    width: 100%;
+}
+/* fourth div starts here. */
+.col-md-3{
+    padding: 2rem 1rem;
+    box-shadow: 1px 2px 2px 1px #888888;
+    border: 1px solid black;
+     margin: 0 5px;  
+     width: 50%;
+}
+.col-md-3 a{
+    color: darkblue;
+
+}
+.col-md-3 img{
+    width: 50%;
+}
+/* fourth div ends here. */
+/* ninth div starts here. */
+.ninth-div{
+   background-image: url("pics/background-image.jpeg"); 
+   background-repeat: no-repeat; 
+   background-size: cover;
+   margin: 2rem 0;
+   width: 99%;
+}
+.ninth-div p{
+    color: white;
+    padding: 2rem;
+}
+.ninth-div span{
+    font-size: 1.5rem;
+}
+.row h4{
+   color: white;
+}
+/* ninth div ends here. */
+/* .tenth div starts here. */
+h4{
+    padding-left: 13rem; 
+    font-weight: bold; 
+}
+.tenth-div p{
+    padding-left: 13rem;
+    font-size: 1.1rem;
+    color: black;
+}
+.tenth-div img{
+    margin: 1rem 0 1rem 40rem;
+}
+.tenth-div h3{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.tenth-div span{
+    color: black;
+}
+/* .tenth div ends here. */
+/* eleventh div starts here. */
+.eleventh-div{
+    background-color: rgb(2, 55, 101);
+    padding: 2rem;
+}
+.eleventh-div p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* eleventh div starts here. */
+/* contact div starts here. */
+.contact-div img{
+   width: 20rem;
+    margin-left: 8rem; 
+}
+.contact-div2{
+}
+.contact-div2 p{
+    line-height: 1rem; 
+    padding-left: 1rem;  
+}
+.contact-div2 img{
+    border-radius: 50px;
+}
+.contact-add{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+/* contact div ends here. */
+/* real estate starts here. */
+.real-estate{
+    background-color: rgb(1, 38, 72);
+    margin-top: 2.5rem;
+    padding: 2.5rem;
+    width: 99%;
+}
+.real-estate p{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+}
+.real-h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3rem 0 1rem 0;
+}
+.real-p{
+    text-decoration: underline;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+.real-div p{
+    padding-left: 4rem;
+    font-size: 1.1rem;
+    line-height: 0.5rem;
+}
+
+/* real estate ends here. */
+/* button ends here. */
+button{
+    margin: 4rem 0 3rem 43rem;
+    font-size: 2.5rem;
+}
+/* button ends here. */
+/* footer starts here. */
+footer{
+    background-color: rgb(1, 38, 72);
+    font-size: 1.5rem;
+    color: rgb(210, 208, 208);
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* footer ends here. */
+@media only screen and (max-width:767px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+}
+
