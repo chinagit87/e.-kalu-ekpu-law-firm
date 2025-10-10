@@ -2,15 +2,18 @@ body{
     margin: 0;
     padding: 0;
 }
-div{
-    padding: 0;
-    margin: 0;
-}
+.sticky{
+   padding: 0;
+   margin: 0;
+   z-index: 1;
+} 
+
 h1{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2%;
     font-family: 'Times New Roman', Times, serif;
 }
+/* first div starts here. */
 .first-img{
     width: 3rem;
 }
@@ -19,13 +22,12 @@ h1{
     line-height: 0.1rem;
     font-size: 1.2rem;
 }
-/* first div starts here. */
 .first-div{
     background-color: black;
-    width: 19rem;
+    width: 20%;
     margin-left: 75rem;
-    border-radius: 8px;
-    padding: 1rem;
+    border-radius: 6px;
+    padding: 1%;
 }
 .first-div p{
     line-height: 0.4rem;
@@ -35,62 +37,92 @@ span{
     font-weight: bold;
     color: rgb(230, 192, 96);
 }
+.top-div{
+    position: absolute;
+    z-index: 2;
+}
 /* first div ends here. */
-/* second div starts here. */
-.second-div{
+/* navbar section */
+.navbar{
     background-color: rgb(2, 55, 101);
-    height: 3.5rem;
     width: 99%;
-    border-radius: 3px;
+    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
+    margin-top: 13.5rem;
 }
-.top-li img{
-    width: 2rem;
-    border-radius: 25px;  
-    margin-right: 0.5rem; 
+.dropdown-menu li a{
+    color: rgb(2, 55, 101);    
+    padding-left: 2rem;
 }
-.top-li h2{
-    color: white;
-    padding: 0 6rem 1rem 0;
-}
-li{
-    list-style: none;
-    margin: right;
-}
-li a{
-    float: left;
-    margin: 0.5rem;
-    color: gray;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-li a:hover{
+.dropdown-menu li a:hover{
+    color: #fff;
     text-decoration: none;
+}
+a.active{
+    color: #fff;
+}
+.nav-link{
+    /* font-size: 1rem; */
+    font-family: "Montserrat-light";
+}
+.dropdown-menu li a{
+    color: #8393aa;
+    padding-left: 2rem;
+}
+.dropdown-menu li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+a.navbar-a-tags{
+    color:  #8393aa;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration:none ;
+    display: block;
+    margin: 0.5rem;
+}  
+.eke-firm{
     color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 3rem 0 0.2rem; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* second div ends here. */
-/* third div starts here. */
-.third-img{
-    margin-left: 10rem;
-    width: 33%;
-    margin-bottom: 0.3rem;
+.eke-firm:hover{
+    color:  #8393aa;
+    text-decoration: none;
 }
-.col-md-12{
-    padding: 0.1rem 0 1rem 1rem;
+.eke-firm img{
+    border-radius: 50%; 
+    width:2rem;       
 }
+a.navbar-a-tags:hover{
+    color: rgb(230, 175, 175);    
+}   
+a.active{
+      color: #fff;
+}
+/* navbar section ends here. */
+/* .third-div starts here. */
 .third-div{
+    padding: 5rem 0 1rem 5rem;
+    margin-right: 0.8%;
+    margin-top: 14rem;
+}
+.law-firm{
     background-color: rgb(1, 38, 72);
-    padding: 0.6rem;
-    border-radius: 6px;
-    margin-bottom: 2rem;
+    padding: 0.6rem 3rem;
+    border-radius: 3px;
+    width: 35%;
+    text-align: center;
+    font-size: 1rem;
 }
-.third-div p{
+.law-firm p{
     color: white;
-    padding-bottom: 0.1rem;
 }
-.third-div h2{
+.law-firm h2{
     color: white;
     text-align: center;
-    padding-bottom: 0.4rem;
+    padding-bottom: 1rem;
 }
 /* third div ends here. */
 h2{
@@ -98,100 +130,152 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 2rem;
 }
-.fourth-div{
-    width: 100%;
+/* row div ends here. */
+.main-div{
+    width: 97%;
+    padding-left: 4%;
+    margin-top: 2rem;
 }
-/* fourth div starts here. */
-.col-md-3{
-    padding: 2rem 1rem;
+.card{
     box-shadow: 1px 2px 2px 1px #888888;
-    border: 1px solid black;
-     margin: 0 5px;  
-     width: 50%;
 }
-.col-md-3 a{
-    color: darkblue;
-
+.card img:hover{
+    width: 20rem;
 }
-.col-md-3 img{
-    width: 50%;
+.card-details{
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(24, 24, 87);
 }
-/* fourth div ends here. */
-/* ninth div starts here. */
-.ninth-div{
+.card-details:hover{
+    color: #888888;
+    text-decoration: none;
+}
+/* row div ends here. */
+/* eight div starts here. */
+.eke-details{
    background-image: url("pics/background-image.jpeg"); 
    background-repeat: no-repeat; 
    background-size: cover;
-   margin: 2rem 0;
+   margin: 2rem 0 -5rem 0;
    width: 99%;
 }
-.ninth-div p{
+.eke-details p{
     color: white;
     padding: 2rem;
-}
-.ninth-div span{
-    font-size: 1.5rem;
 }
 .row h4{
    color: white;
 }
-/* ninth div ends here. */
-/* .tenth div starts here. */
 h4{
-    padding-left: 13rem; 
+    padding-left: 10%; 
     font-weight: bold; 
 }
-.tenth-div p{
-    padding-left: 13rem;
+/* eight div ends here. */
+/* ninth div starts here. */
+ .ninth-div span{
+    font-size: 1.5rem;
+}
+.ninth-div{
+    margin-top: 7rem;
+}
+.ninth-div p{
+    padding-left: 10%;
     font-size: 1.1rem;
     color: black;
 }
-.tenth-div img{
-    margin: 1rem 0 1rem 40rem;
+.ninth-div img{
+    margin: 1rem 0 1rem 37rem;
 }
-.tenth-div h3{
+.ninth-div h3{
     font-weight: bold;
-    padding-top: 2rem;
+    padding: 2rem 0 0 9.4rem;
 }
-.tenth-div span{
+.ninth-div span{
     color: black;
 }
-/* .tenth div ends here. */
-/* eleventh div starts here. */
-.eleventh-div{
+/* .ninth div ends here. */
+/* last div starts here. */
+.last-div{
     background-color: rgb(2, 55, 101);
     padding: 2rem;
 }
-.eleventh-div p{
+.last-div p{
     color: white;
     text-align: center;
     font-size: 1.5rem;
 }
-/* eleventh div starts here. */
+/* last div starts here. */
+/* about us div starts here. */
+.about-us{
+    margin: 19rem 3rem 0 7rem;
+    width: 100%;
+}
+.about-one{
+    width: 100%;
+    padding: 2rem 0 0 3rem;
+}
+.about-img{
+    margin: 0 8% 2% 8%;
+}
+.img-details h6{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-details p{
+    text-align: justify;
+}
+.second-details h6{
+    padding-left: 0.7rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-details{  
+    padding: 0 0 2rem 8rem;
+    text-align:justify;
+}
+.second-img{
+    margin-right: 5rem;
+}
+/* about us div starts here. */
+/* practice div starts here. */
+.practice-h2{
+    margin-top: 18rem;
+}
+/* practice div ends here. */
 /* contact div starts here. */
-.contact-div img{
-   width: 20rem;
-    margin-left: 8rem; 
+.contact{
+    margin-top: 19rem;
+    width: 99.9%;
 }
-.contact-div2{
+.img{
+   width: 15rem;
+   margin-left: 10rem;
 }
-.contact-div2 p{
+.contact-two h5{
+    font-weight: bold;
+    margin-left: 2.6rem;
+    padding-bottom: 1rem;
+}
+.contact-two p{
     line-height: 1rem; 
-    padding-left: 1rem;  
+    padding-left: 2rem;
+    font-size: 1.1rem;  
 }
 .contact-div2 img{
     border-radius: 50px;
 }
-.contact-add{
-    font-size: 1.5rem;
-    padding: 1rem;
-}
+/* .contact-add{
+    font-size: 1rem;
+    margin-right: 0.3rem;
+} */
 /* contact div ends here. */
 /* real estate starts here. */
 .real-estate{
     background-color: rgb(1, 38, 72);
-    margin-top: 2.5rem;
-    padding: 2.5rem;
+    margin-top: 18rem;
+    padding: 2.5rem 0 2.5rem 1rem;
     width: 99%;
 }
 .real-estate p{
@@ -207,18 +291,47 @@ h4{
 .real-p{
     text-decoration: underline;
     padding-left: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.real-div p{
+.real{
     padding-left: 4rem;
-    font-size: 1.1rem;
-    line-height: 0.5rem;
+    font-size: 1rem;
+    line-height: 0.6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.second-real{
+    padding-left: 4rem;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 99%;
+    margin-right: 61%;
+    border: 1px solid rgb(239, 235, 235);
+}
+.real-h4{
+    padding: 0;
+}
+.real-pee{
+    padding-left: 3rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.second-pee{
+    padding-left: 3rem;
+    line-height: 0.5rem;
+    padding-bottom: 2rem;
 
+}
+.real-div{
+    width: 99.9%;
+}
 /* real estate ends here. */
 /* button ends here. */
 button{
-    margin: 4rem 0 3rem 43rem;
+    margin: 6rem 0 3rem 43rem;
     font-size: 2.5rem;
 }
 /* button ends here. */
@@ -235,8 +348,201 @@ footer{
 /* footer ends here. */
 @media only screen and (max-width:767px){
     body{
-        padding: 0;
-        margin: 0;
-    }
+    margin: 0;
+    padding: 0;
+}
+.sticky{
+   padding: 0;
+   margin: 0;
+   z-index: 1;
+} 
+.sticky h1{
+    margin-left: -1rem;
+    font-size: 2rem;
+    padding: 1.5rem 30rem 0.1rem 0;
+}
+/* first div starts here. */
+.first-img{
+    width: 10%;
+}
+.first-p{
+    font-family:'Times New Roman', Times, serif;    
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0 0 0.1rem 4rem;
+}
+.first-div{
+    background-color: black;
+    width: 43%;
+    margin: 0.1rem;
+    border-radius: 3px;
+    padding: 1rem;
+}
+.first-div p{
+    line-height: 0.4rem;
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: rgb(230, 192, 96);
+}
+/* first div ends here. */
+/* navbar section */
+.navbar{
+    background-color: rgb(2, 55, 101);
+    width: 43%;
+    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
+    margin-top: 12.5em;
+}
+/* .dropdown-menu li a{
+    color: rgb(2, 55, 101);    
+    padding-left: 2rem;
+} */
+.dropdown-menu li a:hover{
+    color: rgb(2, 55, 101);
+    text-decoration: none;
+}
+a.active{
+    color: #fff;
+}
+/* .nav-link{
+    font-size: 1.1rem;
+    font-family: "Montserrat-light";
+} */
+.dropdown-menu li a{
+    color: #8393aa;
+    padding-left: 2rem;
+}
+.dropdown-menu li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+a.navbar-a-tags{
+    color:  #8393aa;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration:none ;
+    display: block;
+    padding: 0;
+}  
+.eke-firm{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.eke-firm:hover{
+    color: #8393aa;
+    text-decoration: none;
+}
+.eke-firm img{
+    border-radius: 51%; 
+    width:10%; 
+    /* margin: 0; */
+    padding-left: -1rem;
+}
+a.navbar-a-tags:hover{
+    color: rgb(230, 175, 175);    
+}   
+a.active{
+      color: #fff;
+}
+/* navbar section ends here. */
+/* .third-div starts here. */
+.third-div{
+    /* padding: 5rem 0 1rem 5rem; */
+    margin-top: 24rem;
+}
+.third-div img{
+    width: 60%;
+    margin: 0 0 0.5rem 1.7rem;
+}
+.law-firm{
+    background-color: rgb(1, 38, 72);
+    padding: 0.6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+.law-firm p{
+    color: white;
+}
+.law-firm h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+/* third div ends here. */
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+/* row div ends here. */
+.main-div{
+    width: 100%;
+    padding-left: 2rem;
+}
+.col-md-3{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    box-shadow: 1px 2px 2px 1px #888888;
+}
+.card img:hover{
+    width: 20rem;
+}
+.card-details{
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(24, 24, 87);
+}
+.card-details:hover{
+    color: #888888;
+    text-decoration: none;
+}
+/* row div ends here. */
+/* eight div starts here. */
+.eke-details{
+   background-image: url("pics/background-image.jpeg"); 
+   background-repeat: no-repeat; 
+   background-size: cover;
+}.eke-details p{
+    color: white;
+    padding: 2rem;
+}
+.row h4{
+   color: white;
+   padding-bottom: 0;
+}
+h4{
+    padding-left: 10%; 
+    font-weight: bold; 
+}
+/* eight div ends here. */
+/* ninth div starts here. */
+ .ninth-div span{
+    font-size: 1.5rem;
+}
+.ninth-div{
+    margin-top: 7rem;
+}
+.ninth-div p{
+    padding-left: 10%;
+    font-size: 1.1rem;
+    color: black;
+}
+.ninth-div img{
+    margin: 1rem 0 1rem 37rem;
+}
+.ninth-div h3{
+    font-weight: bold;
+    padding: 2rem 0 0 9.4rem;
+}
+.ninth-div span{
+    color: black;
 }
 
