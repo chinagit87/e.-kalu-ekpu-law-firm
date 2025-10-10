@@ -5,7 +5,8 @@ body{
 .sticky{
    padding: 0;
    margin: 0;
-   z-index: 1;
+   position: absolute;
+   z-index: 2;
 } 
 
 h1{
@@ -47,7 +48,7 @@ span{
     background-color: rgb(2, 55, 101);
     width: 99%;
     font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
-    margin-top: 13.5rem;
+    margin-top: 13rem;
 }
 .dropdown-menu li a{
     color: rgb(2, 55, 101);    
