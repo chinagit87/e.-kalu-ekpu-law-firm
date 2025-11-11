@@ -8,9 +8,9 @@ body{
    margin: 0;
    padding: 0 0 -3rem 0;
 } 
-h1{
+.fixed-top h1{
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     margin-bottom: -1rem;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -24,7 +24,7 @@ h1{
 .fixed-div{
     background-color: black;
     width: 25%;
-    margin: 1rem 0 2rem 56rem;    
+    margin: 1rem 0 2rem 75%;    
     border-radius: 4px;
     padding: 1rem 1rem 0.5rem 1rem;
 }
@@ -41,7 +41,7 @@ span{
 /* navbar section */
 .navbar{
     background-color: rgb(2, 55, 101);
-    margin-top: 13.6rem;
+    margin-top: 11.2rem;
     padding-top: 0;
 }
 .dropdown-menu li a:hover{
@@ -88,7 +88,7 @@ a.navbar-a-tags:hover{
 
 /* <!-- why choose div starts here. --> */
 .why-choose{
-    margin: 17rem 0.2rem 1rem 0;
+    margin: 14.5rem 0.2rem 1rem 0;
     width: 100%;
 }
 .why-choose img{
@@ -389,7 +389,7 @@ h1{
 }
 .fixed-div{
     width: 98%;
-    margin: 0;
+    margin: -1rem;
     padding: 0.8rem 0 0 0.5rem;    
     background-color: #fff;   
 }
@@ -406,7 +406,7 @@ span{
 
 /* navbar section */
 .navbar{
-    margin-top: 12rem;
+    margin-top: 10rem;
     width: 98%;
 }
 a.navbar-a-tags{
