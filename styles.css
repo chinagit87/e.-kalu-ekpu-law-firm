@@ -2,91 +2,76 @@ body{
     margin: 0;
     padding: 0;
 }
-.sticky{
-   padding: 0;
+/* fixed top div starts here. */
+.fixed-top{
+   background-color: #fff;
    margin: 0;
-   position: absolute;
-   z-index: 2;
+   padding: 0 0 -3rem 0;
 } 
-
 h1{
     text-align: center;
-    padding-top: 2%;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
     font-family: 'Times New Roman', Times, serif;
 }
-/* first div starts here. */
-.first-img{
+.fixed-img{
     width: 3rem;
 }
-.first-p{
+.fixed-top p{
     text-align: center;
-    line-height: 0.1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
-.first-div{
+.fixed-div{
     background-color: black;
-    width: 20%;
-    margin-left: 75rem;
-    border-radius: 6px;
-    padding: 1%;
+    width: 25%;
+    margin: 1rem 0 2rem 56rem;    
+    border-radius: 4px;
+    padding: 1rem 1rem 0.5rem 1rem;
 }
-.first-div p{
+.fixed-div p{
     line-height: 0.4rem;
     color: white;
+    padding-left: 1em ;
 }
 span{
     font-weight: bold;
     color: rgb(230, 192, 96);
 }
-.top-div{
-    position: absolute;
-    z-index: 2;
-}
-/* first div ends here. */
+/* fixed top div ends here. */
 /* navbar section */
 .navbar{
     background-color: rgb(2, 55, 101);
-    width: 99%;
-    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
-    margin-top: 13rem;
-}
-.dropdown-menu li a{
-    color: rgb(2, 55, 101);    
-    padding-left: 2rem;
+    margin-top: 13.6rem;
+    padding-top: 0;
 }
 .dropdown-menu li a:hover{
     color: #fff;
     text-decoration: none;
 }
-a.active{
-    color: #fff;
-}
 .nav-link{
-    /* font-size: 1rem; */
     font-family: "Montserrat-light";
 }
 .dropdown-menu li a{
     color: #8393aa;
     padding-left: 2rem;
 }
-.dropdown-menu li a:hover{
-    color: #fff;
-    text-decoration: none;
-}
 a.navbar-a-tags{
     color:  #8393aa;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration:none ;
     display: block;
     margin: 0.5rem;
-}  
+} 
+a.active{
+    color: #fff;
+}
 .eke-firm{
     color: white;
     font-weight: bold;
-    font-size: 2rem;
-    padding: 0 3rem 0 0.2rem; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    padding: 0 3rem 0 0; 
 }
 .eke-firm:hover{
     color:  #8393aa;
@@ -99,44 +84,43 @@ a.navbar-a-tags{
 a.navbar-a-tags:hover{
     color: rgb(230, 175, 175);    
 }   
-a.active{
-      color: #fff;
-}
 /* navbar section ends here. */
-/* .third-div starts here. */
-.third-div{
-    padding: 5rem 0 1rem 5rem;
-    margin-right: 0.8%;
-    margin-top: 14rem;
+
+/* <!-- why choose div starts here. --> */
+.why-choose{
+    margin: 17rem 0.2rem 1rem 0;
+    width: 100%;
 }
-.law-firm{
+.why-choose img{
+    margin-left: 10rem;
+}
+.why-choose-e{
     background-color: rgb(1, 38, 72);
-    padding: 0.6rem 3rem;
+    padding: 1rem 3rem;
     border-radius: 3px;
-    width: 35%;
+    width: 30%;
     text-align: center;
+}
+.why-choose-e h2{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+.why-choose-e p{
+    color: white;
     font-size: 1rem;
 }
-.law-firm p{
-    color: white;
-}
-.law-firm h2{
-    color: white;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-/* third div ends here. */
+/* <!-- why choose div ends here. --> */
 h2{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 2rem;
+    padding: 0 0 1rem 0 ;
 }
-/* row div ends here. */
+/* main div starts here. */
 .main-div{
-    width: 97%;
-    padding-left: 4%;
-    margin-top: 2rem;
-}
+    padding: 0;
+    margin: 1rem 0;
+} 
 .card{
     box-shadow: 1px 2px 2px 1px #888888;
 }
@@ -150,101 +134,196 @@ h2{
     color: rgb(24, 24, 87);
 }
 .card-details:hover{
-    color: #888888;
+    color: rgb(214, 111, 73);
     text-decoration: none;
 }
-/* row div ends here. */
-/* eight div starts here. */
-.eke-details{
+/* main div ends here. */
+
+/* law details starts here. */
+.firm-details{
    background-image: url("pics/background-image.jpeg"); 
    background-repeat: no-repeat; 
    background-size: cover;
    margin: 2rem 0 -5rem 0;
-   width: 99%;
+   width: 98.8%;
 }
-.eke-details p{
+.firm-details p{
     color: white;
     padding: 2rem;
+    font-size: 1.1rem;
 }
-.row h4{
+.firm-details h4{
    color: white;
+   padding-left: 2rem;
 }
-h4{
+/* law details ends here. */
+
+/* corporate-biz section starts here. */
+.corporate-biz{
+    margin-top: 7rem;
+}
+.corporate-biz h4{
     padding-left: 10%; 
     font-weight: bold; 
 }
-/* eight div ends here. */
-/* ninth div starts here. */
- .ninth-div span{
-    font-size: 1.5rem;
-}
-.ninth-div{
-    margin-top: 7rem;
-}
-.ninth-div p{
-    padding-left: 10%;
+.corporate-biz span{
     font-size: 1.1rem;
     color: black;
 }
-.ninth-div img{
-    margin: 1rem 0 1rem 37rem;
-}
-.ninth-div h3{
-    font-weight: bold;
-    padding: 2rem 0 0 9.4rem;
-}
-.ninth-div span{
+.corporate-biz p{
+    padding-left: 10%;
+    font-size: 1.1rem;
     color: black;
+    text-align: left;
 }
-/* .ninth div ends here. */
-/* last div starts here. */
-.last-div{
+.corporate-biz img{
+    margin-left: 30rem;
+}
+.corporate-p{
+    font-size: 1.2rem;
+    padding-top: -1rem;
+}
+.corporate-h5{
+    text-decoration: underline;
+    padding-bottom: 0;
+    color: rgb(32, 32, 73);
+    font-weight: bold;
+}
+/* corporate-biz section ends here. */
+/* cac starts here. */
+.cac span{
+    color: rgb(34, 34, 82);
+}
+/* cac ends here. */
+ /* legal-biz section starts here. */
+.legal-biz{
     background-color: rgb(2, 55, 101);
     padding: 2rem;
 }
-.last-div p{
+.legal-biz p{
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
-/* last div starts here. */
-/* about us div starts here. */
+ /* legal-biz section starts here. */
+ .certificate span{
+    color: rgb(32, 32, 73);
+    font-size: 1.2rem;
+ }
+
+/* about-us section starts here. */
 .about-us{
-    margin: 19rem 3rem 0 7rem;
+    margin: 16rem 3rem 2rem 7rem;
     width: 100%;
 }
-.about-one{
-    width: 100%;
-    padding: 2rem 0 0 3rem;
+.about-details{
+    padding: 2.5rem 0 0 1rem;
 }
-.about-img{
-    margin: 0 8% 2% 8%;
+.about-details h6{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-.img-details h6{
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.img-details p{
+.about-details p{
+    font-size: 1.1rem;
     text-align: justify;
 }
-.second-details h6{
-    padding-left: 0.7rem;
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.about-img{
+    padding: 3rem 0 0 4rem;
 }
-.second-details{  
-    padding: 0 0 2rem 8rem;
-    text-align:justify;
+.about-second{
+    padding: 1rem 0 0 5rem;
+    margin-left: 7rem;
+}
+.second-details h6{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.second-details p{
+    font-size: 1.1rem;
+    text-align: justify;
 }
 .second-img{
-    margin-right: 5rem;
+    margin-left: 2rem;
 }
-/* about us div starts here. */
-/* practice div starts here. */
-.practice-h2{
-    margin-top: 18rem;
+/* about-us section ends here. */
+/* .corporate & Biz sections starts here. */
+.corporate{
+    padding-top: 19rem;
+    font-size: 2.5rem;
 }
-/* practice div ends here. */
+/* .corporate & Biz sections ends here. */
+
+/* main-div2 starts here. */
+.main-div2{
+    margin: 1rem 0 2rem 0;
+}
+.practice{
+    padding: 19rem 0 2rem 0;
+}
+/* main-div2 ends here. */
+
+/* real estate starts here. */
+.real-estate{
+    background-color: rgb(1, 38, 72);
+    margin-top: 18.5rem;
+    padding: 2.5rem 0 2.5rem 1rem;
+    width: 100%;
+}
+.real-estate p{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+}
+.real-h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem 0 1rem 0;
+}
+.real-p{
+    text-decoration: underline;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+ol{
+    padding: 0 0 0 4rem;
+    width: 80%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.second-ol{
+    padding: 0 0 0 1rem;
+    margin: 0 -9rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+hr{
+    width: 99%;
+    margin-right: 61%;
+    border: 1px solid rgb(239, 235, 235);
+}
+ul{
+    padding: 0 0 0 4rem;
+    font-size: 1.1rem;
+}
+.real-h4{
+    padding: 0;
+}
+.second-pee{
+    padding: 0.5rem 0 0 3rem;
+    line-height: 0.5rem;
+    font-size: 1.1rem;
+}
+.second-pee span{
+    color: rgb(34, 34, 82);
+    font-size: 1.2rem;
+}
+.real-div{
+    width: 100%;
+    margin-bottom: 0;
+}
+/* real estate ends here. */
+
 /* contact div starts here. */
 .contact{
     margin-top: 19rem;
@@ -267,283 +346,327 @@ h4{
 .contact-div2 img{
     border-radius: 50px;
 }
-/* .contact-add{
-    font-size: 1rem;
-    margin-right: 0.3rem;
-} */
 /* contact div ends here. */
-/* real estate starts here. */
-.real-estate{
-    background-color: rgb(1, 38, 72);
-    margin-top: 18rem;
-    padding: 2.5rem 0 2.5rem 1rem;
-    width: 99%;
-}
-.real-estate p{
-    color: white;
-    text-align: center;
-    font-size: 1.8rem;
-    line-height: 1.6rem;
-}
-.real-h1{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 3rem 0 1rem 0;
-}
-.real-p{
-    text-decoration: underline;
-    padding-left: 2rem;
-    font-size: 1.6rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.real{
-    padding-left: 4rem;
-    font-size: 1rem;
-    line-height: 0.6rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.second-real{
-    padding-left: 4rem;
-    font-size: 1rem;
-    line-height: 0.5rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-hr{
-    width: 99%;
-    margin-right: 61%;
-    border: 1px solid rgb(239, 235, 235);
-}
-.real-h4{
-    padding: 0;
-}
-.real-pee{
-    padding-left: 3rem;
-    font-size: 1rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.second-pee{
-    padding-left: 3rem;
-    line-height: 0.5rem;
-    padding-bottom: 2rem;
 
-}
-.real-div{
-    width: 99.9%;
-}
-/* real estate ends here. */
 /* button ends here. */
-button{
-    margin: 6rem 0 3rem 43rem;
-    font-size: 2.5rem;
+.btn{
+    margin: 6rem 0 2rem 23rem;
+    font-size: 1.2rem;
 }
 /* button ends here. */
+
 /* footer starts here. */
 footer{
     background-color: rgb(1, 38, 72);
     font-size: 1.5rem;
-    color: rgb(210, 208, 208);
     text-align: center;
+    color: #fff;
     margin-top: 2rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* footer ends here. */
 @media only screen and (max-width:767px){
-    body{
-    margin: 0;
-    padding: 0;
-}
-.sticky{
-   padding: 0;
-   margin: 0;
-   z-index: 1;
-} 
-.sticky h1{
-    margin-left: -1rem;
-    font-size: 2rem;
-    padding: 1.5rem 30rem 0.1rem 0;
-}
-/* first div starts here. */
-.first-img{
-    width: 10%;
-}
-.first-p{
-    font-family:'Times New Roman', Times, serif;    
-    font-size: 1.2rem;
-    text-align: left;
-    padding: 0 0 0.1rem 4rem;
-}
-.first-div{
-    background-color: black;
-    width: 43%;
-    margin: 0.1rem;
-    border-radius: 3px;
+
+/* fixed top div starts here. */
+h1{
+    font-size: 1.9rem;
     padding: 1rem;
+    padding-bottom: 0.5rem;
 }
-.first-div p{
-    line-height: 0.4rem;
-    color: white;
+.fixed-img{
+    width: 2rem; 
+    margin-left: -1rem;
+}
+.fixed-top{
+   margin: 0;
+   padding: 0;
+} 
+.fixed-top p{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;  
+}
+.fixed-div{
+    width: 98%;
+    margin: 0;
+    padding: 0.8rem 0 0 0.5rem;    
+    background-color: #fff;   
+}
+.fixed-div p{
+    font-size: 1rem;
+    text-align: left;
+    line-height: 0;
+    color: #000;
 }
 span{
-    font-weight: bold;
-    color: rgb(230, 192, 96);
+    font-size: 1.1rem;
 }
-/* first div ends here. */
+/* fixed top div ends here. */
+
 /* navbar section */
 .navbar{
-    background-color: rgb(2, 55, 101);
-    width: 43%;
-    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
-    margin-top: 12.5em;
+    margin-top: 12rem;
+    width: 98%;
 }
-/* .dropdown-menu li a{
-    color: rgb(2, 55, 101);    
-    padding-left: 2rem;
-} */
-.dropdown-menu li a:hover{
-    color: rgb(2, 55, 101);
-    text-decoration: none;
-}
+a.navbar-a-tags{
+    font-size: 1.1rem;
+    padding-left: 5.5rem;
+} 
 a.active{
     color: #fff;
 }
-/* .nav-link{
-    font-size: 1.1rem;
+.nav-link{
     font-family: "Montserrat-light";
-} */
+}
 .dropdown-menu li a{
     color: #8393aa;
     padding-left: 2rem;
 }
-.dropdown-menu li a:hover{
-    color: #fff;
-    text-decoration: none;
-}
-a.navbar-a-tags{
-    color:  #8393aa;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-decoration:none ;
-    display: block;
-    padding: 0;
-}  
 .eke-firm{
-    color: white;
-    font-weight: bold;
-    font-size: 2rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.eke-firm:hover{
-    color: #8393aa;
-    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0 3rem 0 1rem; 
+    margin: 0;
 }
 .eke-firm img{
-    border-radius: 51%; 
-    width:10%; 
-    /* margin: 0; */
-    padding-left: -1rem;
-}
-a.navbar-a-tags:hover{
-    color: rgb(230, 175, 175);    
-}   
-a.active{
-      color: #fff;
+    margin-right: 3rem;     
 }
 /* navbar section ends here. */
-/* .third-div starts here. */
-.third-div{
-    /* padding: 5rem 0 1rem 5rem; */
-    margin-top: 24rem;
-}
-.third-div img{
-    width: 60%;
-    margin: 0 0 0.5rem 1.7rem;
-}
-.law-firm{
-    background-color: rgb(1, 38, 72);
-    padding: 0.6rem;
-    width: 100%;
+
+/* <!-- why choose div starts here. --> */
+.why-choose{
+    margin: 13.3rem 0 1rem 0;
     text-align: center;
+}
+.why-choose img{
+    margin: 1.5rem 0 0.5rem 0;
+    width: 35%;
+}
+.why-choose-e{
+    width: 100%;
+}
+.why-choose-e h2{
+    font-size: 1.2rem;
+}
+.why-choose p{
+    /* font-size: 0.8rem; */
+}
+/* <!-- why choose div ends here. --> */
+h2{
+   padding: 0;
+   font-size: 1.5rem;
+}
+/* main div starts here. */
+.main-div{
+    margin: 0;
+} 
+.main-div .col-md-3{
+    margin-top: 1rem;
+}
+.card-details{
     font-size: 1rem;
 }
-.law-firm p{
-    color: white;
+.card-details:hover{
+    text-decoration: none;
 }
-.law-firm h2{
-    color: white;
-    text-align: center;
-    padding-bottom: 1rem;
+/* main div ends here. */
+
+/* law details starts here. */
+.firm-details p{
+    font-size: 1rem;
 }
-/* third div ends here. */
-h2{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 1rem;
+/* law details ends here. */
+
+/* corporate-biz section starts here. */
+.corporate{
+    padding: 15rem 0 0 0;
     font-size: 2rem;
 }
-/* row div ends here. */
-.main-div{
-    width: 100%;
-    padding-left: 2rem;
+.corporate-h5{
+    font-size: 1.1rem;
+    padding-top: 1rem;
 }
-.col-md-3{
+.corporate-p{
+    padding-left: 1rem;
+    padding-top: 0;
+}
+.corporate-biz{
+    padding: 0 1rem;
+}
+.corporate-biz h4{
+    padding-left: 1rem; 
+    font-size: 1.2rem;
+}
+.corporate-biz span{
+    font-size: 1rem;
+}
+.corporate-biz p{
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+.corporate-biz img{
+    margin: 0 4.5rem 1rem 4.5rem;
+    width: 60%;
+}
+/* corporate-biz section ends here. */
+
+/* contact div starts here. */
+.contact{
+    margin-top: 15rem;
+}
+.img{
+   margin-left: 5rem;
+   padding-bottom: 1rem;
+}
+.contact-two h5{
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+.contact-two p{
+    line-height: 1rem; 
+    padding-left: 2rem;
+    font-size: 1.1rem;  
+}
+.contact-div2 img{
+    border-radius: 20px;
+}
+/* contact div ends here. */
+
+/* legal-biz section starts here. */
+.legal-biz{
+    padding: 1rem;
+}
+.legal-biz p{
+    font-size: 1rem;
+    text-align: center;
+}
+/* legal-biz section starts here. */
+
+/* about-us section starts here. */
+.about-us{
+    width: 98%;
+    padding: 1rem 0 0.5rem 0;
+    margin: 15rem 0 0 0;
+}
+/* .about-us{
+    margin: 16rem 3rem 2rem 7rem;
+    width: 100%;
+} */
+.about-img{
+    padding: 0;
+    margin: 0 1rem;
+    width: 20%;
+}
+.about-details{
+    padding: 1rem 1rem;
+}
+.about-details h6{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.about-details p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+.about-second{
+    margin: 0 0 1rem 0;
+    padding: 0 1rem;
+    height: 48rem;
+}
+.second-details h6{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.second-details p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+.second-img{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.about-btn{
+    margin: 3rem 0 2rem 6rem;
+    font-size: 1rem;
+    padding: 5px 3px;
+    border-radius: 4px;
+}
+/* about-us section ends here. */
+/* real estate starts here. */
+.real-estate{
+    margin-top: 15rem;
+    padding: 1.1rem 0 1rem 0.5rem;
+}
+.real-estate p{
+    font-size: 1.3rem;
+    line-height: 1rem;
+}
+.real-h1{
+    padding: 0.6rem 0 0 0;
+}
+.real-p{
+    padding-left: 0.5rem;
+    font-size: 1.6rem;
+    margin: 0;
+}
+ol{
+    padding: 0 0 0 4rem;
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 100%;
+}
+.second-ol{
+    padding: 0 0 1rem 4rem;
+    margin: 0 0 -1rem 0;
+    font-size: 1.1rem;
+}
+hr{
+    margin-bottom: 0.3rem;
+    border: 1px solid rgb(239, 235, 235);
+}
+ul{
+    padding: 0 0 0 3rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.real-h4{
+    padding-left: 0.2rem;
+    font-size: 1.4rem;
+}
+.second-pee{
+    padding: 0 0 0 1rem;
+    font-size: 1.1rem;
+    line-height: 1rem;
+}
+.real-div{
+    width: 100%;
+    margin-bottom: 0;
+}
+/* real estate ends here. */
+
+/* main div2 starts here. */
+.main-div2{
+    margin: 0;
+    padding: 0;
+    width: 99%;
+}
+.practice{
+    padding: 16rem 0 1rem 0;
+}
+.practice-footer{
     padding: 0;
     margin: 0;
 }
-.card{
-    box-shadow: 1px 2px 2px 1px #888888;
-}
-.card img:hover{
-    width: 20rem;
-}
-.card-details{
-    padding: 4%;
-    text-align: center;
-    font-size: 1.2rem;
-    color: rgb(24, 24, 87);
-}
-.card-details:hover{
-    color: #888888;
-    text-decoration: none;
-}
-/* row div ends here. */
-/* eight div starts here. */
-.eke-details{
-   background-image: url("pics/background-image.jpeg"); 
-   background-repeat: no-repeat; 
-   background-size: cover;
-}.eke-details p{
-    color: white;
-    padding: 2rem;
-}
-.row h4{
-   color: white;
-   padding-bottom: 0;
-}
-h4{
-    padding-left: 10%; 
-    font-weight: bold; 
-}
-/* eight div ends here. */
-/* ninth div starts here. */
- .ninth-div span{
-    font-size: 1.5rem;
-}
-.ninth-div{
-    margin-top: 7rem;
-}
-.ninth-div p{
-    padding-left: 10%;
+/* main div2 ends here. */
+/* footer starts here. */
+footer{
     font-size: 1.1rem;
-    color: black;
+    margin-top: 1rem;
 }
-.ninth-div img{
-    margin: 1rem 0 1rem 37rem;
+/* footer ends here. */
 }
-.ninth-div h3{
-    font-weight: bold;
-    padding: 2rem 0 0 9.4rem;
-}
-.ninth-div span{
-    color: black;
-}
+
 
