@@ -44,7 +44,7 @@ span{
 /* navbar section */
 .navbar{
     background-color: rgb(2, 55, 101);
-    margin-top: 11.2rem;
+    margin-top: 10rem;
     padding-top: 0;
 }
 .dropdown-menu li a:hover{
@@ -91,7 +91,7 @@ a.navbar-a-tags:hover{
 
 /* <!-- why choose div starts here. --> */
 .why-choose{
-    margin: 14.5rem 0.2rem 1rem 0;
+    margin: 13.2rem 0.2rem 1rem 0;
     width: 100%;
 }
 .why-choose img{
