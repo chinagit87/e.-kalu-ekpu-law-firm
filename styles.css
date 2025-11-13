@@ -182,6 +182,10 @@ h2{
     font-size: 1.2rem;
     padding-top: -1rem;
 }
+.corporate-h2{
+    padding-top: 14rem;
+    font-size: 2.5rem;
+}
 .corporate-h5{
     text-decoration: underline;
     padding-bottom: 0;
@@ -209,14 +213,13 @@ h2{
     color: rgb(32, 32, 73);
     font-size: 1.2rem;
  }
-
 /* about-us section starts here. */
 .about-us{
-    margin: 16rem 3rem 2rem 7rem;
-    width: 100%;
+    margin-top: 13rem;
 }
 .about-details{
-    padding: 2.5rem 0 0 1rem;
+    padding: 0.5rem;
+    text-align: left;
 }
 .about-details h6{
     font-size: 1.5rem;
@@ -227,22 +230,11 @@ h2{
     text-align: justify;
 }
 .about-img{
-    padding: 3rem 0 0 4rem;
+    padding: 0.5rem;
+    text-align: center;
 }
-.about-second{
-    padding: 1rem 0 0 5rem;
-    margin-left: 7rem;
-}
-.second-details h6{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.second-details p{
-    font-size: 1.1rem;
-    text-align: justify;
-}
-.second-img{
-    margin-left: 2rem;
+.about-us-2{
+    padding-left: 5rem;
 }
 /* about-us section ends here. */
 /* .corporate & Biz sections starts here. */
@@ -259,12 +251,15 @@ h2{
 .practice{
     padding: 19rem 0 2rem 0;
 }
+.practice-h2{
+    padding-top: 15rem;
+}
 /* main-div2 ends here. */
 
 /* real estate starts here. */
 .real-estate{
     background-color: rgb(1, 38, 72);
-    margin-top: 18.5rem;
+    margin-top: 13.2rem;
     padding: 2.5rem 0 2.5rem 1rem;
     width: 100%;
 }
@@ -274,9 +269,9 @@ h2{
     font-size: 1.8rem;
     line-height: 1.6rem;
 }
-.real-h1{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2rem 0 1rem 0;
+.real-h2{
+    padding-top: 1rem;
+    text-align: center;
 }
 .real-p{
     text-decoration: underline;
@@ -298,34 +293,28 @@ ol{
 }
 hr{
     width: 99%;
-    margin-right: 61%;
     border: 1px solid rgb(239, 235, 235);
 }
 ul{
     padding: 0 0 0 4rem;
-    font-size: 1.1rem;
 }
 .real-h4{
     padding: 0;
 }
-.second-pee{
-    padding: 0.5rem 0 0 3rem;
-    line-height: 0.5rem;
-    font-size: 1.1rem;
+.certificate-pee{
+    padding-left: 3rem;
 }
 .second-pee span{
     color: rgb(34, 34, 82);
     font-size: 1.2rem;
 }
 .real-div{
-    width: 100%;
-    margin-bottom: 0;
+    width: 98%;
 }
 /* real estate ends here. */
-
 /* contact div starts here. */
 .contact{
-    margin-top: 19rem;
+    margin-top: 14rem;
     width: 99.9%;
 }
 .img{
@@ -348,10 +337,10 @@ ul{
 /* contact div ends here. */
 
 /* button ends here. */
-.btn{
-    margin: 6rem 0 2rem 23rem;
-    font-size: 1.2rem;
-}
+ .homepage-button{
+    text-align: center;
+    margin-top: 3rem;    
+ }
 /* button ends here. */
 
 /* footer starts here. */
