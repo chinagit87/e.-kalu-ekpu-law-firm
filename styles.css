@@ -164,6 +164,7 @@ h2{
 .corporate-biz h4{
     padding-left: 10%; 
     font-weight: bold; 
+    font-size: 1rem;
 }
 .corporate-biz span{
     font-size: 1.1rem;
@@ -359,7 +360,7 @@ footer{
 
 /* fixed top div starts here. */
 .fixed-top h1{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     padding-bottom: 0.5rem;
 }
 .fixed-img{
@@ -372,29 +373,25 @@ footer{
 } 
 .fixed-top p{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 2.5rem;  
 }
 .fixed-div{
-    margin-top: -1.8rem;
-    padding: 0;    
-    background-color: #fff;   
-    /* text-align: left; */
+    margin-top: -1.9rem;
+    background-color: #fff; 
+    width: 97%;
 }
 .fxed-div p{
-    font-size: 0.8rem;
-    text-align: left;
-    /* margin-top: -1.5rem; */
+    font-size: 1.5rem;
 }
 span{
     font-size: 1rem;
 }
 /* fixed top div ends here. */
-
 /* navbar section */
 .navbar{
-    margin-top: 10rem;
-    width: 98%;
+    margin-top: 9rem;
+    width: 97%;
 }
 a.navbar-a-tags{
     font-size: 1.1rem;
@@ -412,17 +409,17 @@ a.active{
 }
 .eke-firm{
     font-size: 1.4rem;
-    padding: 0 3rem 0 1rem; 
-    margin: 0;
+    margin-bottom: 1%; 
+    text-align: center;
 }
 .eke-firm img{
-    margin-right: 3rem;     
+    /* margin-left: -3rem;      */
+    text-align: center;
 }
 /* navbar section ends here. */
-
 /* <!-- why choose div starts here. --> */
 .why-choose{
-    margin: 10rem 0 1rem 0;
+    margin: 10.5rem 0 1rem 0;
     text-align: center;
 }
 .why-choose img{
@@ -433,10 +430,10 @@ a.active{
     width: 100%;
 }
 .why-choose-e h2{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .why-choose p{
-    /* font-size: 0.8rem; */
+    font-size: 1rem;
 }
 /* <!-- why choose div ends here. --> */
 h2{
@@ -451,7 +448,7 @@ h2{
     margin-top: 1rem;
 }
 .card-details{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .card-details:hover{
     text-decoration: none;
@@ -471,7 +468,6 @@ h2{
 }
 .corporate-h5{
     font-size: 1.1rem;
-    padding-top: 1rem;
 }
 .corporate-p{
     padding-left: 1rem;
@@ -495,25 +491,36 @@ h2{
     margin: 0 4.5rem 1rem 4.5rem;
     width: 60%;
 }
+.corporate-h2{
+   padding-top: 12rem;
+   font-size: 2rem;
+}
+.certificate-pee{
+    text-align: left;
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+}
+.practice-h2{
+    padding: 12.5rem 0 1rem 0;
+}
 /* corporate-biz section ends here. */
-
 /* contact div starts here. */
 .contact{
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 .img{
    margin-left: 5rem;
    padding-bottom: 1rem;
+   width: 10%;
 }
 .contact-two h5{
     font-weight: bold;
     padding-left: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .contact-two p{
-    line-height: 1rem; 
     padding-left: 2rem;
-    font-size: 1.1rem;  
+    font-size: 1.2rem;  
 }
 .contact-div2 img{
     border-radius: 20px;
@@ -534,19 +541,10 @@ h2{
 .about-us{
     width: 98%;
     padding: 1rem 0 0.5rem 0;
-    margin: 15rem 0 0 0;
+    margin: 11rem 0 0 0;
 }
-/* .about-us{
-    margin: 16rem 3rem 2rem 7rem;
-    width: 100%;
-} */
-.about-img{
-    padding: 0;
-    margin: 0 1rem;
-    width: 20%;
-}
-.about-details{
-    padding: 1rem 1rem;
+.about-us-2{
+    padding-left: 1rem;
 }
 .about-details h6{
     font-size: 1.2rem;
@@ -583,7 +581,7 @@ h2{
 /* about-us section ends here. */
 /* real estate starts here. */
 .real-estate{
-    margin-top: 15rem;
+    margin-top: 12rem;
     padding: 1.1rem 0 1rem 0.5rem;
 }
 .real-estate p{
@@ -624,9 +622,8 @@ ul{
     font-size: 1.4rem;
 }
 .second-pee{
-    padding: 0 0 0 1rem;
+    /* padding: 0; */
     font-size: 1.1rem;
-    line-height: 1rem;
 }
 .real-div{
     width: 100%;
@@ -648,6 +645,10 @@ ul{
     margin: 0;
 }
 /* main div2 ends here. */
+.homepage-button{
+    text-align: center;
+    margin-top: 3rem 0 2rem 0;    
+ }
 /* footer starts here. */
 footer{
     font-size: 1.1rem;
