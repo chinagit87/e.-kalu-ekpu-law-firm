@@ -391,7 +391,7 @@ span{
 /* navbar section */
 .navbar{
     margin-top: 9rem;
-    width: 97%;
+    /* width: 97%; */
 }
 a.navbar-a-tags{
     font-size: 1.1rem;
@@ -533,7 +533,6 @@ h2{
 }
 .legal-biz p{
     font-size: 1rem;
-    text-align: center;
 }
 /* legal-biz section starts here. */
 
@@ -640,10 +639,7 @@ ul{
 .practice{
     padding: 16rem 0 1rem 0;
 }
-.practice-footer{
-    padding: 0;
-    margin: 0;
-}
+
 /* main div2 ends here. */
 .homepage-button{
     text-align: center;
