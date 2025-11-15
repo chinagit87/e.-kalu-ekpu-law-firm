@@ -318,9 +318,8 @@ ul{
     margin-top: 14rem;
     width: 99.9%;
 }
-.img{
-   width: 15rem;
-   margin-left: 10rem;
+.contact-logo{
+    text-align: center;
 }
 .contact-two h5{
     font-weight: bold;
@@ -331,9 +330,6 @@ ul{
     line-height: 1rem; 
     padding-left: 2rem;
     font-size: 1.1rem;  
-}
-.contact-div2 img{
-    border-radius: 50px;
 }
 /* contact div ends here. */
 
@@ -508,10 +504,9 @@ h2{
 .contact{
     margin-top: 12rem;
 }
-.img{
-   margin-left: 5rem;
-   padding-bottom: 1rem;
-   width: 10%;
+.contact-logo img{
+   width: 5rem;
+   text-align: center;
 }
 .contact-two h5{
     font-weight: bold;
@@ -521,9 +516,6 @@ h2{
 .contact-two p{
     padding-left: 2rem;
     font-size: 1.2rem;  
-}
-.contact-div2 img{
-    border-radius: 20px;
 }
 /* contact div ends here. */
 
