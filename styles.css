@@ -332,13 +332,17 @@ ul{
     font-size: 1.1rem;  
 }
 /* contact div ends here. */
-
 /* button ends here. */
  .homepage-button{
     text-align: center;
     margin-top: 3rem;    
  }
 /* button ends here. */
+.developed{
+    font-size: 0.8rem; 
+    text-align: right; 
+    padding: 1rem 1% 0 0;
+}
 
 /* footer starts here. */
 footer{
@@ -346,7 +350,7 @@ footer{
     font-size: 1rem;
     text-align: center;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 0;
     padding: 0.3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -360,7 +364,7 @@ footer{
 
 /* fixed top div starts here. */
 .fixed-top h1{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     padding-bottom: 0.5rem;
 }
 .fixed-img{
@@ -407,14 +411,8 @@ a.active{
     color: #8393aa;
     padding-left: 2rem;
 }
-.eke-firm{
-    font-size: 1.3rem;
-    margin-bottom: 1%; 
-    text-align: center;
-}
 .eke-firm img{
-    /* margin-left: -3rem;      */
-    text-align: center;
+    margin-bottom: 2%;
 }
 /* navbar section ends here. */
 /* <!-- why choose div starts here. --> */
@@ -433,7 +431,7 @@ a.active{
     font-size: 1.3rem;
 }
 .why-choose p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 /* <!-- why choose div ends here. --> */
 h2{
@@ -457,7 +455,7 @@ h2{
 
 /* law details starts here. */
 .firm-details p{
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 /* law details ends here. */
 
@@ -478,7 +476,7 @@ h2{
 }
 .corporate-biz h4{
     padding-left: 1rem; 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .corporate-biz span{
     font-size: 1rem;
@@ -497,8 +495,8 @@ h2{
 }
 .certificate-pee{
     text-align: left;
-    font-size: 1.1rem;
-    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
 }
 .practice-h2{
     padding: 12.5rem 0 1rem 0;
