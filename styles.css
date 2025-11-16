@@ -132,7 +132,7 @@ h2{
     font-size: 1.2rem;
     color: rgb(24, 24, 87);
 }
-.card-details:hover{
+.card-details p:hover{
     color: rgb(214, 111, 73);
     text-decoration: none;
 }
@@ -447,9 +447,6 @@ h2{
 }
 .card-details{
     font-size: 1.2rem;
-}
-.card-details:hover{
-    text-decoration: none;
 }
 /* main div ends here. */
 
