@@ -338,25 +338,21 @@ ul{
     margin-top: 3rem;    
  }
 /* button ends here. */
-.developed{
-    font-size: 0.8rem; 
-    text-align: right; 
-    padding: 1rem 1% 0 0;
-}
-
 /* footer starts here. */
 footer{
     background-color: rgb(1, 38, 72);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #fff;
-    margin-top: 0;
+    margin-top: 2rem;
     padding: 0.3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .homepage-footer{
-    margin-top: 0;
-    /* padding-top: 0; */
+    margin-top: 2rem;
+}
+.footer-span{
+    font-size: 0.7rem;
 }
 /* footer ends here. */
 
@@ -638,17 +634,22 @@ ul{
  }
 /* footer starts here. */
 footer{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
+    padding-left: 0;
+}
+.homepage-footer{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    padding-left: 0;
+}
+.footer-span{
+    font-size: 0.6rem;
 }
 /* footer ends here. */
 }
 
-@media only screen and (max-width:375px){
-.fixed-div p{
-    text-align: left;
-}
-}
+
 
 
 
