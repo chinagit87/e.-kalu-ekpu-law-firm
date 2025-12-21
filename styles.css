@@ -332,6 +332,37 @@ ul{
     font-size: 1.1rem;  
 }
 /* contact div ends here. */
+/* members div starts here */
+.members-div{
+        margin: 1rem 0 2rem 0;
+}
+.members{
+    margin-top: 15rem;
+}
+.members img{
+   /* border-radius: 5%; */
+   width: 60%;
+}
+.members img:hover{
+    width: 10rem;
+}
+.members-span{
+    color: darkred;
+}
+.members-details{
+    padding: 4% 0 -0.7% 1%;
+    margin-left: -0.9rem;
+    width: 70%;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+}
+.members-details p:hover{
+    text-decoration: none;
+}
+/* members div starts here */
+/* .miracle
 /* button ends here. */
  .homepage-button{
     text-align: center;
@@ -352,7 +383,8 @@ footer{
     margin-top: 2rem;
 }
 .footer-span{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    color: #fff;
 }
 /* footer ends here. */
 
