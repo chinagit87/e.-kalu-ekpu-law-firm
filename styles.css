@@ -332,24 +332,25 @@ ul{
     font-size: 1.1rem;  
 }
 /* contact div ends here. */
-/* members div starts here */
-.members-div{
+
+/* staffs div starts here */
+.staffs-div{
         margin: 1rem 0 2rem 0;
 }
-.members{
+.staffs{
     margin-top: 15rem;
 }
-.members img{
+.staffs img{
    /* border-radius: 5%; */
    width: 60%;
 }
-.members img:hover{
+.staffs img:hover{
     width: 10rem;
 }
-.members-span{
+.staffs-span{
     color: darkred;
 }
-.members-details{
+.staffs-details{
     padding: 4% 0 -0.7% 1%;
     margin-left: -0.9rem;
     width: 70%;
@@ -358,17 +359,18 @@ ul{
     font-size: 1rem;
     color: #000;
 }
-.members-details p:hover{
+.staffs-details p:hover{
     text-decoration: none;
 }
-/* members div starts here */
-/* .miracle
+/* staffs div starts here */
+
 /* button ends here. */
  .homepage-button{
     text-align: center;
     margin-top: 3rem;    
  }
 /* button ends here. */
+
 /* footer starts here. */
 footer{
     background-color: rgb(1, 38, 72);
@@ -660,6 +662,31 @@ ul{
 }
 
 /* main div2 ends here. */
+
+/* staffs div starts here */
+.staffs-div{
+        margin: 15rem 0 2rem 0;
+        text-align: center;
+}
+.staffs{
+    margin-top: 1.5rem;
+}
+.staffs img{
+   width: 80%;
+}
+.staffs img:hover{
+    width: 10rem;
+}
+.staffs-details{
+    /* padding: 4% 0 -0.7% 1%; */
+    margin-left: 1rem;
+    width: 90%;
+    font-size: 1.3rem;
+}
+.staffs-details p:hover{
+    /* text-decoration: none; */
+}
+/* staffs div starts here */
 .homepage-button{
     text-align: center;
     margin-top: 3rem 0 2rem 0;    
