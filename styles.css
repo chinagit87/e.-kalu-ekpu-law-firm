@@ -21,13 +21,6 @@ body{
     text-align: center;
     font-size: 1rem;
 }
-.fixed-div{
-    /* background-color: black;
-    width: 25%;
-    margin: 1rem 0 2rem 75%;    
-    border-radius: 4px;
-    padding: 1rem 1rem 0.5rem 1rem; */
-}
 .fixed-div p{
     text-align: right;
     padding-right: 1rem;
@@ -37,6 +30,7 @@ span{
     color: rgb(102, 83, 34);
 }
 /* fixed top div ends here. */
+
 /* navbar section */
 .navbar{
     background-color: rgb(2, 55, 101);
@@ -110,11 +104,13 @@ a.navbar-a-tags:hover{
     font-size: 1rem;
 }
 /* <!-- why choose div ends here. --> */
+
 h2{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 0 0 1rem 0 ;
 }
+
 /* main div starts here. */
 .main-div{
     padding: 0;
@@ -194,11 +190,13 @@ h2{
     font-weight: bold;
 }
 /* corporate-biz section ends here. */
+
 /* cac starts here. */
 .cac span{
     color: rgb(34, 34, 82);
 }
 /* cac ends here. */
+
  /* legal-biz section starts here. */
 .legal-biz{
     background-color: rgb(2, 55, 101);
@@ -210,10 +208,12 @@ h2{
     font-size: 1.6rem;
 }
  /* legal-biz section starts here. */
+
  .certificate span{
     color: rgb(32, 32, 73);
     font-size: 1.2rem;
  }
+
 /* about-us section starts here. */
 .about-us{
     margin-top: 13rem;
@@ -238,6 +238,7 @@ h2{
     padding-left: 5rem;
 }
 /* about-us section ends here. */
+
 /* .corporate & Biz sections starts here. */
 .corporate{
     padding-top: 19rem;
@@ -313,6 +314,7 @@ ul{
     width: 98%;
 }
 /* real estate ends here. */
+
 /* contact div starts here. */
 .contact{
     margin-top: 14rem;
@@ -333,24 +335,24 @@ ul{
 }
 /* contact div ends here. */
 
-/* staffs div starts here */
-.staffs-div{
-        margin: 1rem 0 2rem 0;
+/* Members div starts here */
+.Members-div{
+    margin: 12rem 0 0 2rem;
+    border: 1px solid;
 }
-.staffs{
-    margin-top: 15rem;
+.Members{
+    margin: 2rem 0 0 0;
 }
-.staffs img{
-   /* border-radius: 5%; */
+.Members img{
    width: 60%;
 }
-.staffs img:hover{
+.Members img:hover{
     width: 10rem;
 }
-.staffs-span{
+.Members-span{
     color: darkred;
 }
-.staffs-details{
+.Members-details{
     padding: 4% 0 -0.7% 1%;
     margin-left: -0.9rem;
     width: 70%;
@@ -359,10 +361,10 @@ ul{
     font-size: 1rem;
     color: #000;
 }
-.staffs-details p:hover{
+.Members-details p:hover{
     text-decoration: none;
 }
-/* staffs div starts here */
+/* Members div starts here */
 
 /* button ends here. */
  .homepage-button{
@@ -422,14 +424,14 @@ span{
     font-size: 1rem;
 }
 /* fixed top div ends here. */
+
 /* navbar section */
 .navbar{
     margin-top: 9rem;
-    /* width: 97%; */
 }
 a.navbar-a-tags{
     font-size: 1.1rem;
-    padding-left: 5.5rem;
+    padding-left: 1.7rem;
 } 
 a.active{
     color: #fff;
@@ -445,6 +447,7 @@ a.active{
     margin-bottom: 2%;
 }
 /* navbar section ends here. */
+
 /* <!-- why choose div starts here. --> */
 .why-choose{
     margin: 10.5rem 0 1rem 0;
@@ -464,10 +467,12 @@ a.active{
     font-size: 1.2rem;
 }
 /* <!-- why choose div ends here. --> */
+
 h2{
    padding: 0;
    font-size: 1.5rem;
 }
+
 /* main div starts here. */
 .main-div{
     margin: 0;
@@ -529,22 +534,23 @@ h2{
     padding: 12.5rem 0 1rem 0;
 }
 /* corporate-biz section ends here. */
+
 /* contact div starts here. */
 .contact{
     margin-top: 12rem;
 }
 .contact-logo img{
-   width: 5rem;
+   width: 7rem;
    text-align: center;
 }
 .contact-two h5{
     font-weight: bold;
-    padding-left: 0;
+    padding: 0.3rem 0 0.3rem 0;
     font-size: 1.7rem;
 }
 .contact-two p{
     padding-left: 2rem;
-    font-size: 1.2rem;  
+    font-size: 1rem;  
 }
 /* contact div ends here. */
 
@@ -599,6 +605,7 @@ h2{
     border-radius: 4px;
 }
 /* about-us section ends here. */
+
 /* real estate starts here. */
 .real-estate{
     margin-top: 12rem;
@@ -642,7 +649,6 @@ ul{
     font-size: 1.4rem;
 }
 .second-pee{
-    /* padding: 0; */
     font-size: 1.1rem;
 }
 .real-div{
@@ -660,41 +666,40 @@ ul{
 .practice{
     padding: 16rem 0 1rem 0;
 }
-
 /* main div2 ends here. */
 
-/* staffs div starts here */
-.staffs-div{
-        margin: 15rem 0 2rem 0;
-        text-align: center;
+/* Members div starts here */
+.Members-div{
+    margin: 15rem 0 2rem 0;
+    text-align: center;
 }
-.staffs{
+.Members{
     margin-top: 1.5rem;
 }
-.staffs img{
+.Members img{
    width: 80%;
 }
-.staffs img:hover{
+.Members img:hover{
     width: 10rem;
 }
-.staffs-details{
-    /* padding: 4% 0 -0.7% 1%; */
+.Members-details{
     margin-left: 1rem;
     width: 90%;
     font-size: 1.3rem;
 }
-.staffs-details p:hover{
-    /* text-decoration: none; */
-}
-/* staffs div starts here */
+/* Members div starts here */
+
+/* .homepage-button starts here */
 .homepage-button{
     text-align: center;
     margin-top: 3rem 0 2rem 0;    
  }
+ /* .homepage-button ends here */
+
 /* footer starts here. */
 footer{
     font-size: 0.8rem;
-    margin-top: 1rem;
+    /* margin-top: -2rem; */
     padding-left: 0;
 }
 .homepage-footer{
