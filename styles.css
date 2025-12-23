@@ -363,6 +363,7 @@ ul{
 }
 .Members-details p:hover{
     text-decoration: none;
+    text-align: #e0e0e0;
 }
 /* Members div starts here */
 
@@ -669,23 +670,22 @@ ul{
 /* main div2 ends here. */
 
 /* Members div starts here */
+
 .Members-div{
-    margin: 15rem 0 2rem 0;
-    text-align: center;
+    margin-top: 11rem;
 }
 .Members{
     margin-top: 1.5rem;
 }
 .Members img{
    width: 80%;
-}
-.Members img:hover{
-    width: 10rem;
+   margin-left: 4.5%;
 }
 .Members-details{
-    margin-left: 1rem;
+    margin-left: 0.3%;
     width: 90%;
     font-size: 1.3rem;
+    /* text-align: center; */
 }
 /* Members div starts here */
 
